@@ -28,6 +28,7 @@ this repo but have no package-manager integration yet.
 
 ## Updating the cask after a new release
 
-`Casks/bcode.rb`'s `version` and `sha256` are not automated yet — after a
-new release, update both by hand from that release's `checksums.txt`
-(the `bcode-macos-universal.zip` line).
+Automatic: the release workflow in `bewayio/code` updates `Casks/bcode.rb`'s
+`version` and `sha256` and pushes here right after publishing each release —
+no manual step needed. The very first cask commit in this repo still has a
+placeholder version/checksum until that first automated run happens.
