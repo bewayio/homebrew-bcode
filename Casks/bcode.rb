@@ -2,8 +2,8 @@ cask "bcode" do
   # PLACEHOLDER — update version and sha256 after the first real release.
   # Cut a release from bewayio/code with: git tag vX.Y.Z && git push origin vX.Y.Z
   # The release's checksums.txt has the exact sha256 for bcode-macos-universal.zip.
-  version "0.1.29"
-  sha256 "86b19f9d175075a18d9f156739046ad1d25a1fc02a41d0b2c9dabbe4d8a2e6a0"
+  version "0.1.30"
+  sha256 "39fbed5dca1e31460121704db09ee0f7f6178b8e15179ca37642ed1e24134dbf"
 
   url "https://github.com/bewayio/homebrew-bcode/releases/download/v#{version}/bcode-macos-universal.zip"
   name "BCode"
